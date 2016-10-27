@@ -39,19 +39,6 @@ namespace Infi_Snake
             //loggingexample();
         }
 
-        //public void loggingexample()
-        //{
-        //    if (log.IsDebugEnabled == true) { //IsDebugEnabled -> Rückgabe boolean, Abfrage ob Debug-Level geloggt wird
-        //        log.Debug("EXAMPLE Debug-Message");
-        //        log.DebugFormat("EXAMPLE: Length of the Snake: {0}", _snakelen);
-        //        //log.DebugFormat() ist log.Debug(String.Format()) vorzuziehen, 
-        //        //da hier keine exception geworfen wird.
-        //    }
-        //    log.Info("EXAMPLE Info-Message");
-        //    log.Warn("EXAMPLE Warning");
-        //    log.Error("EXAMPLE Error");
-        //    log.Fatal("EXAMPLE Fatal Error");
-        //}
 
         internal void Start()
         {
