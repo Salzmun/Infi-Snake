@@ -10,8 +10,6 @@ namespace Infi_Snake
     class InfiSnakeGame
     {
 
-        // private static readonly ILog log = LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
-
         enum Direction { Up, Down, Left, Right }
 
         Random _random;
@@ -36,7 +34,7 @@ namespace Infi_Snake
             _running = false;
             _delay = 100;
             Console.CursorVisible = false;
-            //loggingexample();
+           
         }
 
 
