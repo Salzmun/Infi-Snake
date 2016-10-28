@@ -37,6 +37,11 @@ namespace Infi_Snake
            
         }
 
+        internal void dostuff()
+        {
+            //Andere Kommentare
+        }
+
 
         internal void Start()
         {
